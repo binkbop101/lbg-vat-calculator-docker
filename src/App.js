@@ -37,6 +37,7 @@ function App() {
     <div className='header field'>
       VAT CALCULATOR
       <div className='colour-border'>
+        <h1>Joe was here</h1>
         <VatRateField customstyle="field" vatRateChanged={handleVatRateChanged} value={vatRate} updatePrices={updatePrices} />
         <PriceEntryField customstyle="field" label="Price excl VAT: " priceChanged={handleNetPriceChange} price={netPrice === 0.0 ? "" : netPrice} />
         <DisplayBlock customstyle="field" label="VAT to pay: " value={vatToPay} />
